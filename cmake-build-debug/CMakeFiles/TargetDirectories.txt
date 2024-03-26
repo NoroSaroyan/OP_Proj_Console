@@ -1,0 +1,3 @@
+/Users/noriksaroyan/CLionProjects/OP_Proj_Console/cmake-build-debug/CMakeFiles/OP_Proj_Console.dir
+/Users/noriksaroyan/CLionProjects/OP_Proj_Console/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/noriksaroyan/CLionProjects/OP_Proj_Console/cmake-build-debug/CMakeFiles/rebuild_cache.dir

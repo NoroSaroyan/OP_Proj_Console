@@ -1,0 +1,5 @@
+# ninja log v5
+13	942	1711487555582776725	CMakeFiles/OP_Proj_Console.dir/Entities/Car.cpp.o	bc71faf6cf46f2b7
+0	8039	1711487383701790347	CMakeFiles/OP_Proj_Console.dir/main.cpp.o	8b5204a1a39a71b1
+15	1015	1711487571791515546	CMakeFiles/OP_Proj_Console.dir/Entities/Order.cpp.o	2b990942ff2ae641
+1015	1141	1711487571924869668	OP_Proj_Console	db36ae3f581b2179
