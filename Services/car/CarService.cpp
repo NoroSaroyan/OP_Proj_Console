@@ -2,6 +2,30 @@
 
 #include <algorithm>
 
+namespace CarMapper {
+    std::string serialize(const Car& car) {
+        std::ostringstream oss;
+        oss << car.getId() << ',' << car.getBrand() << ',' << car.getModel() << ',' << car.getVolume() << ','
+            << static_cast<int>(car.getBodyType()) << ',' << static_cast<int>(car.getTransmission()) << ','
+            << car.getRate() << ',' << car.isHasCarSeat();
+        return oss.str();
+    }
+
+    Car deserialize(const std::string& str) {
+        std::istringstream iss(str);
+        std::string id, brand, model, volume;
+        int bodyType, transmission;
+        double rate;
+        bool hasCarSeat;
+        char comma;
+
+        iss >> id >> comma >> brand >> comma >> model >> comma >> volume >> comma >> bodyType >> comma
+            >> transmission >> comma >> rate >> comma >> hasCarSeat;
+
+        return Car(id, brand, model, volume, static_cast<BodyType>(bodyType), static_cast<Transmission>(transmission), hasCarSeat);
+    }
+}
+
 void CarService::addCar(const Car& car) {
     cars.push_back(car);
 }

@@ -10,6 +10,8 @@ add_executable(OP_Proj_Console main.cpp
         Entities/car/Car.cpp
         Entities/order/Order.h
         Entities/order/Order.cpp
-        Services/CarService.h
-        Services/CarService.h
-        Services/CarService.cpp)
+        Services/car/CarService.h
+        Services/car/CarService.h
+        Services/car/CarService.cpp
+        Services/order/OrderService.h
+        Services/order/OrderService.cpp)
